@@ -9,7 +9,6 @@
     "generate": "gql-gen --config codegen.yml"
   },
   "dependencies": {
-    "@graphqlstarter/common": "1.0.0",
     "@zeit/next-typescript": "^1.1.1",
     "apollo-boost": "^0.3.1",
     "apollo-link-context": "^1.0.17",
