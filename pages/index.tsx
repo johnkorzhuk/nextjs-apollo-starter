@@ -1,10 +1,7 @@
 import Link from "next/link";
 import * as React from "react";
-import { testMessage } from "../../common/index";
 import Layout from "../components/Layout";
 import { LoginComponent } from "../generated/apolloComponents";
-
-console.log(testMessage("world"));
 
 const IndexPage: React.FunctionComponent = () => {
   return (

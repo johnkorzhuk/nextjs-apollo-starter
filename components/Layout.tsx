@@ -28,10 +28,6 @@ const Layout: React.FunctionComponent<Props> = ({
           <a>Home</a>
         </Link>{" "}
         |{" "}
-        <Link href="/hello">
-          <a>hello</a>
-        </Link>{" "}
-        |{" "}
         <Link href="/register">
           <a>register</a>
         </Link>{" "}
@@ -42,8 +38,6 @@ const Layout: React.FunctionComponent<Props> = ({
         |{" "}
         <MeComponent>
           {({ data, loading }) => {
-            console.log(data);
-
             if (!data || loading || !data.me) {
               return (
                 <Link href="/login">
