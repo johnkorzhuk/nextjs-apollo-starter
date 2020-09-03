@@ -36,7 +36,7 @@
     "@types/react-dom": "16.0.11",
     "@types/styled-components": "^4.1.15",
     "@types/validator": "^10.11.0",
-    "graphql-code-generator": "^0.16.0",
+    "graphql-code-generator": "^0.18.2",
     "graphql-codegen-typescript-client": "^0.16.0",
     "graphql-codegen-typescript-common": "^0.16.0",
     "graphql-codegen-typescript-react-apollo": "^0.16.0",
